@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
 
     fun OnAdition(view: View) {
         var numberone:Int=Integer.parseInt(binding.etNumberone.text.toString())
-       var  numbertwo:Int=Integer.parseInt(binding.etNumbertwo.text.toString())
+        var  numbertwo:Int=Integer.parseInt(binding.etNumbertwo.text.toString())
         val sum= numberone + numbertwo
         binding.tvResult.text="Result:  $sum"
     }
