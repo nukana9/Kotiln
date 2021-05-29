@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         val view= binding.root
         setContentView(view)
         binding.tvHeader.text="Sample Program"
-        binding.tvTitle.text="Addtion of two number"
+        binding.tvTitle.text="Addition of Two numbers"
 
     }
 
